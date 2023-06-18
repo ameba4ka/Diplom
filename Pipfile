@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+mysql = "*"
+python-telegram-bot = "==13.15"
+mysql-connector-python = "*"
+python-dotenv = "*"
+aiogram = "*"
+aioschedule = "*"
+matplotlib = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
